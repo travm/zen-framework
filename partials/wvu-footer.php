@@ -1,9 +1,11 @@
 <div id="wvu-footer">
     <div id="wvu-footer-content" class="measure">
         <div id="wvu-footer-contact">
-            <p><a href="#">Accreditations</a> | <a href="#">Web Standards</a> | <a href="#">Questions or Comments?</a><br>
-            @Umbraco.Field("siteAddress", recursive: true)<br>
-            &copy;@DateTime.Now.Year West Virginia University is an Equal Opportunity/Affirmative Action Institution.</p>
+            <p>
+                <a href="#">Accreditations</a> | <a href="#">Web Standards</a> | <a href="#">Questions or Comments?</a><br>
+                P.O. Box 9000 | Morgantown, WV 26505<br>
+                &copy;@2014 West Virginia University is an Equal Opportunity/Affirmative Action Institution.
+            </p>
         </div>
         
         <div id="wvu-footer-links">
@@ -22,17 +24,17 @@
             <ul id="wvu-footer-social">
                 <li>
                     <a href="https://www.facebook.com/FriendofWVUHealthcareTEST">
-                        <img src="/Themes/Custom/SON/Images/facebook.png" alt="Facebook">
+                        <img src="designs/zen/img/facebook.png" alt="Facebook">
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/wvuhealth">
-                        <img src="/Themes/Custom/SON/Images/twitter.png" alt="Twitter">
+                        <img src="designs/zen/img/twitter.png" alt="Twitter">
                     </a>
                 </li>
                 <li>
                     <a href="http://www.youtube.com/user/WVUHealthcare">
-                        <img src="/Themes/Custom/SON/Images/youtube.png" alt="Youtube">
+                        <img src="designs/zen/img/youtube.png" alt="Youtube">
                     </a>
                 </li>
             </ul>
