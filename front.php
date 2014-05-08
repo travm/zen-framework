@@ -21,9 +21,9 @@
 
     <div id="col-core">
         
-        <h1>This is a Title</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, cumque, doloremque. Aut, mollitia, laborum, dolore modi sint eveniet quisquam quibusdam deserunt reiciendis dolorum autem necessitatibus iste ipsam repudiandae eos. Excepturi.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, ab, quidem, rem veritatis in perspiciatis adipisci quas consequatur asperiores dolore totam nihil maiores molestiae atque nesciunt autem eligendi. Sequi, animi.</p>
+        <h1>What is the Zen Framework?</h1>
+        <p>The Zen Framework is an opinionated set of HTML structures and elements that are designed to remain consistent across a large set of sites. This allows for rapid development within a shared templating environment.</p>
+        <p>This is a very opinionated framework and is designed specifically to be able to organize and maintain a large set of clients (200+) while reducing development time when designs need to be refreshed or revisited.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, deserunt, laborum, praesentium, in sed id officiis tempora consequuntur voluptas eius molestias sint odio obcaecati enim nesciunt numquam cumque optio culpa.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptate, repellat, inventore tempora eius ullam quis fuga soluta odio pariatur dolorum hic cumque iste commodi ipsam? Porro, est aliquam saepe.</p>
         <p>Consequatur, maiores dolor iure quae rem molestias accusantium earum nihil. Tempora, tenetur sapiente hic rerum! Labore, aut, facere, repudiandae aperiam suscipit at incidunt nostrum nobis velit officiis eius commodi cum!</p>

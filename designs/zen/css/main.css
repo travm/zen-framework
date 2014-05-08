@@ -247,10 +247,10 @@
     #hero-content {max-width:800px;}
 
     /* Columns */
-    #col-core {width:50%; padding:2em; float:left;}
-    #col-pri {width:25%; padding:0 2em 0 0; float:left;}
-    #col-sec {width:25%; padding:2em; float:left;}
-    #col-ter {width:25%; padding:0 0 0 2em; float:left;}
+    #col-core {width:65%; padding:1em; float:left;}
+    #col-pri {width:35%; padding:1em 1em 1em 0; float:left;}
+    #col-sec {width:100%; margin:0 0 2em 0; padding:1em; background:rgba(0,0,0,0.1); clear:both;}
+    #col-ter {width:25%; padding:0 0 0 1em; float:left;}
 
     /* Footer */
     #site-footer-one,
@@ -287,5 +287,19 @@
     /* MEDIA QUERIES */
     /*****************/
 
+
+}
+
+@media screen and (min-width:1000px) {
+
+    /**********/
+    /* LAYOUT */
+    /**********/
+
+    /* Columns */
+    #col-core {width:50%; padding:2em;}
+    #col-pri {width:25%; padding:2em 2em 2em 0;}
+    #col-sec {width:25%; margin:0; padding:2em; float:left; clear:none;}
+    #col-ter {width:25%;}
 
 }
