@@ -16,6 +16,7 @@
     <div id="col-pri">
 
         <?php include('blocks/block-news.php'); ?>
+        <?php include('blocks/block-events.php'); ?>
 
     </div>
 

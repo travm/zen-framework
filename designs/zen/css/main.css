@@ -70,7 +70,7 @@
     #hero {
       min-height: 400px;
       max-height: 585px;
-      background: url(https://farm8.staticflickr.com/7195/14046556302_1d785d27fd_h.jpg);
+      background: url(../img/hero.jpg);
       background-size: cover;
       background-position: 100% 100%;
       background-position: 100% 25%;
@@ -168,6 +168,17 @@
     .news-items > li > h4 > a {color:#222; text-decoration:none;}
     .news-items > li > p {font-size:.80em;}
 
+    /* Events */
+    .events {}
+    .events-header {}
+    .events-content {}
+    .events-items {list-style:none; margin:0; padding:0;}
+    .events-items > li {padding:1em 0; border-top:1px solid rgba(0,0,0,0.1);}
+    .events-items > li:last-child {border-bottom:1px solid rgba(0,0,0,0.1);}
+    .events-items > li > h4 {margin:0;}
+    .events-items > li > h4 > a {color:#222; text-decoration:none;}
+    .events-items > li > p {font-size:.80em;}
+    
 
     /* Breadcrumb */
     .breadcrumb {}
