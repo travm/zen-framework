@@ -1,6 +1,7 @@
 <div id="wvu-footer">
     <div id="wvu-footer-content" class="measure">
         <div id="wvu-footer-contact">
+            <h1><strong>Zen</strong> Framework</h1>
             <p>
                 <a href="#">Accreditations</a> | <a href="#">Web Standards</a> | <a href="#">Questions or Comments?</a><br>
                 P.O. Box 9000 | Morgantown, WV 26505<br>

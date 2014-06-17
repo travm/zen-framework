@@ -31,7 +31,7 @@
             
             <h2>Getting Started</h2>
             <p>Since the framework itself is just a set of HTML structures, all you need to do is create a CSS file that targets all of the DOM elements in the framework.<p>
-            <p>My taking advantage of OOCSS principles, organizing your CSS code is very easy. If you need a little help getting started, check out our starter kit CSS, Shelter.</p>
+            <p>By taking advantage of OOCSS principles, organizing your CSS code is very easy. If you need a little help getting started, check out our starter kit CSS, Shelter.</p>
 
         </div>
 

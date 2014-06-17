@@ -1,6 +1,6 @@
 <div id="site-header">
     <div id="site-header-content" class="measure">
-        <div id="site-header-title"><h1><span class="is-medium-font">ZEN</span> Framework</h1></div>
+        <div id="site-header-title"><h1><strong>ZEN</strong> Framework</h1></div>
         <div id="site-header-links">
             <ul class="navigation">
                 <li><a href="#">Home</a></li>
