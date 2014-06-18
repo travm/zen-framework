@@ -6,7 +6,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Designs</a></li>
                 <li><a href="#">Blocks</a></li>
-                <li><a href="#">Partial</a></li>
+                <li><a href="#">Partials</a></li>
                 <li><a href="#">Github</a></li>
             </ul>
         </div>
