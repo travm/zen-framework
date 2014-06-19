@@ -1,4 +1,4 @@
-<?php include('partials/header.php'); ?>
+<?php include('partials/top.php'); ?>
 <?php include('partials/wvu-header.php'); ?>
 <?php include('partials/hsc-header.php'); ?>
 <?php include('partials/site-header.php'); ?>
@@ -33,4 +33,4 @@
 
 <?php include('partials/site-footer.php'); ?>
 <?php include('partials/wvu-footer.php'); ?>
-<?php include('partials/footer.php'); ?>
+<?php include('partials/bottom.php'); ?>

@@ -1,7 +1,4 @@
 <div class="menu">
-    <div class="menu-title">
-        <h1>Menu</h1>
-    </div>
     <div class="menu-content">
         <ul class="menu-items">
             <li class="menu-item"><a href="#">Link One</a></li>

@@ -50,9 +50,6 @@
     /* Measure */
     .measure {width:90%; margin:0 auto;}
 
-    /* Header */
-    #header {}
-
     /* WVU Header */
     #wvu-header {background: url('../img/wvu-header.png') top center no-repeat; background-color:#0062A9; }
     #wvu-header-content {position:relative; overflow:hidden;}
@@ -72,11 +69,12 @@
     #hsc-logo a:hover {color: #eee;}
 
     /* Site Header */
-    #site-header {background:#222; border-bottom:1px solid #111;}
-    #site-header-content {padding:1em 0;}
-    #site-header-title {color:#efefef; font-weight:100;}
-    #site-header-title > h1 {font-weight:100; margin:0; padding:0;}
-    #site-header-links {}
+    #header {background:#222; border-bottom:1px solid #111;}
+    #header-content {padding:1em 0;}
+    #header-title {color:#efefef; font-weight:100;}
+    #header-title > h1 {font-weight:100; margin:0; padding:0;}
+    #header-links {}
+    #header-links-toggle {}
 
     /* Hero */
     #hero {
@@ -126,6 +124,10 @@
     #site-footer-content a {color:#fff;}
     #site-footer-content a:hover {color:#fff;}
     #site-footer-news {margin:0 0 2em 0;}
+    #site-footer-one {}
+    #site-footer-two {}
+    #site-footer-three {}
+    #site-footer-four {}
 
     /* WVU Footer */
     #wvu-footer {
@@ -160,7 +162,7 @@
 
     /* Grid */
     .grp {overflow:hidden;}
-    .grp > .col {padding:1em 0; box-sizing:border-box;}
+    .grp > .col {padding:3em 0; box-sizing:border-box;}
     .grp-one {}
     .grp-one > .col {}
     .grp-two {}
@@ -192,7 +194,7 @@
     /* Menu */
     .menu {}
     .menu-items {list-style:none; margin:0; padding:0;}
-    .menu-item {padding:1em; border-top:1px solid #eee;}
+    .menu-item {padding:.5em; border-top:1px solid #eee;}
     .menu-item:last-child {border-bottom:1px solid #eee;}
     .menu-item > a {color:#333; text-decoration:none;}
 
@@ -241,8 +243,8 @@
 /*************/
     
     /* Image Placement */
-    .is-image-left {float:left; margin:1em 1em 1em 0;}
-    .is-image-right {float:right; margin:1em 0 1em 1em;}
+    .is-image-left {float:left; margin-right:1em;}
+    .is-image-right {float:right; margin-left:1em;}
 
     .is-hidden {display:none !important;}
     .is-visible {display:block !important;}
@@ -293,9 +295,9 @@
     #hsc-header-content {text-align: left;}
 
     /* Site Header */
-    #site-header-content {overflow:hidden;}
-    #site-header-title {float:left;}
-    #site-header-links {float:right;}
+    #header-content {overflow:hidden;}
+    #header-title {float:left;}
+    #header-links {float:right;}
     
     /* Hero */
     #hero-content {max-width:800px;}
@@ -319,14 +321,14 @@
     /***********/
 
     /* Grid */
-    .grp > .col {padding:1em 1em;}
+    .grp > .col {padding:4em 0;}
     .grp-one {}
     .grp-one > .col {}
     .grp-two {}
-    .grp-two > .col-one {width:25%; float:left;}
-    .grp-two > .col-two {width:75%; float:left;}
+    .grp-two > .col-one {width:25%; margin-right:5%; float:left;}
+    .grp-two > .col-two {width:70%; float:left;}
     .grp-three {}
-    .grp-three > .col-one {width:35%; float:left;}
+    .grp-three > .col-one {width:32.5%; margin-right:2.5%; float:left;}
     .grp-three > .col-two {width:65%; float:left;}
     .grp-three > .col-three {width:100%; clear:both; float:none;}
     .grp-four {}
@@ -352,7 +354,7 @@
 
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:62.5em) {
 
     /**********/
     /* LAYOUT */
@@ -364,16 +366,17 @@
     /***********/
     
     /* Grid */
-    .grp > .col {padding:2em;}
+    .grp > .col {padding:4em 0;}
     .grp-one {}
     .grp-one > .col {}
     .grp-two {}
     .grp-two > .col {}
     .grp-three {}
     .grp-three > .col {}
-    .grp-three > .col-one {width:23.3%; float:left;}
-    .grp-three > .col-two {width:53.3%; float:left;}
-    .grp-three > .col-three {width:23.3%; background:#eee; clear:none; float:left;}
+    .grp-three > .col-one {width:20.3%; margin-right:5%; float:left;}
+    .grp-three > .col-two {width:43.3%; float:left;}
+    .grp-three > .col-three {color:#fff; width:26.3%; margin-left:5%; padding:4em 2em 2em 2em; background:#3399ff; clear:none; float:left;}
+    .grp-three > .col-three a {color:#fff;}
     .grp-four {}
     .grp-four > .col {width:25%; padding:2em;}
 
