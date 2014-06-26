@@ -1,6 +1,6 @@
 <div id="site-footer">
-    <div id="site-footer-content" class="measure">
-        <div id="site-footer-one">
+    <div id="site-footer-content" class="grp grp-four measure">
+        <div id="site-footer-one" class="col col-one">
             <h3>Links Section One</h3>
             <ul class="link-list">
                 <li><a href="http://cal.wvu.edu/" title="WVU Academic Calendar (Opens In New Window)" target="_blank">Academic Calendar</a></li>
@@ -11,7 +11,7 @@
                 <li><a href="http://www.finaid.wvu.edu/" title="Financial Aid (Opens In New Window)" target="_blank">Financial Aid</a></li>
             </ul>
         </div>
-        <div id="site-footer-two">
+        <div id="site-footer-two" class="col col-two">
             <h3>Links Section Two</h3>
             <ul class="link-list">
                 <li><a href="http://www.hsc.wvu.edu/alumni/" title="HSC Alumni (Opens In New Window)" target="_blank">Alumni</a></li>
@@ -22,7 +22,7 @@
                 <li><a href="http://www.health.wvu.edu/" title="WVU Healthcare (Opens In New Window)" target="_blank">WVU Healthcare</a></li>
             </ul>
         </div>
-        <div id="site-footer-three">
+        <div id="site-footer-three" class="col col-three">
             <h3>Links Section Three</h3>
             <ul class="link-list">
                 <li><a href="#">Link One</a></li>
@@ -32,7 +32,7 @@
                 <li><a href="#">Link Five</a></li>
             </ul>
         </div>
-        <div id="site-footer-four">
+        <div id="site-footer-four" class="col col-four">
             <h3>Links Section Four</h3>
             <ul class="link-list">
                 <li><a href="#">Link One</a></li>

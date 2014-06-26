@@ -69,7 +69,7 @@
     #hsc-logo a:hover {color: #eee;}
 
     /* Site Header */
-    #header {background:#222; border-bottom:1px solid #111;}
+    #header {background:#222; border-bottom:0px solid #111;}
     #header-content {padding:1em 0;}
     #header-title {color:#efefef; font-weight:100;}
     #header-title > h1 {font-weight:100; margin:0; padding:0;}
@@ -162,7 +162,7 @@
 
     /* Grid */
     .grp {overflow:hidden;}
-    .grp > .col {padding:3em 0; box-sizing:border-box;}
+    .grp > .col {padding:2em 0; box-sizing:border-box;}
     .grp-one {}
     .grp-one > .col {}
     .grp-two {}
@@ -190,6 +190,21 @@
     .navigation li a.active {}
     .navigation li.apply {}
     .navigation li.apply a {}
+    .navigation.fixed {
+        width:100%;
+        max-width:284px;
+        height:100%;
+        position:fixed;
+        top:0;
+        left:-100px;
+        bottom:0;
+        display:block;
+        transition:all ease .5s;
+    }
+    .navigation.active {
+        left:0;
+    }
+
 
     /* Menu */
     .menu {}
@@ -222,9 +237,12 @@
     .events-items > li > h4 > a {color:#222; text-decoration:none;}
     .events-items > li > p {font-size:.80em;}
     
-
-    /* Breadcrumb */
-    .breadcrumb {}
+    /* Breadcrumbs */
+    .breadcrumbs {margin:0 0 2em 0; padding:0 0 1em 0; border-bottom:1px solid rgba(0,0,0,0.1);}
+    .breadcrumbs > ul {list-style:none; margin:0; padding:0;}
+    .breadcrumbs > ul > li {margin:0 .5em 0 0; display:inline-block;}
+    .breadcrumbs > ul > li:after {content:">"; margin:0 0 0 .5em;}
+    .breadcrumbs > ul > li > a {color:#222; text-decoration: none;}
 
     /* Hero */
     .hero {}
@@ -302,12 +320,6 @@
     /* Hero */
     #hero-content {max-width:800px;}
 
-    /* Footer */
-    #site-footer-one,
-    #site-footer-two,
-    #site-footer-three,
-    #site-footer-four {width:25%; float:left;}
-
     #wvu-footer-contact {width:40%; text-align:left; float:left;}
     #wvu-footer-links {width:60%; margin:0; float:right;}
     #wvu-footer-sites {text-align:right; width:100%; margin:0 0 10px 0; float:right;}
@@ -321,15 +333,15 @@
     /***********/
 
     /* Grid */
-    .grp > .col {padding:4em 0;}
+    .grp > .col {padding:2em;}
     .grp-one {}
     .grp-one > .col {}
-    .grp-two {}
-    .grp-two > .col-one {width:25%; margin-right:5%; float:left;}
+    .grp-two > .col {}
+    .grp-two > .col-one {width:30%; float:left;}
     .grp-two > .col-two {width:70%; float:left;}
-    .grp-three {}
-    .grp-three > .col-one {width:32.5%; margin-right:2.5%; float:left;}
-    .grp-three > .col-two {width:65%; float:left;}
+    .grp-three > .col {}
+    .grp-three > .col-one {width:40%; float:left;}
+    .grp-three > .col-two {width:60%; float:left;}
     .grp-three > .col-three {width:100%; clear:both; float:none;}
     .grp-four {}
     .grp-four > .col {width:50%; float:left;}
@@ -366,18 +378,19 @@
     /***********/
     
     /* Grid */
-    .grp > .col {padding:4em 0;}
+    .grp > .col {padding:3em;}
     .grp-one {}
     .grp-one > .col {}
-    .grp-two {}
     .grp-two > .col {}
+    .grp-two > .col-one {width:20%;}
+    .grp-two > .col-two {width:80%;}
     .grp-three {}
     .grp-three > .col {}
-    .grp-three > .col-one {width:20.3%; margin-right:5%; float:left;}
-    .grp-three > .col-two {width:43.3%; float:left;}
-    .grp-three > .col-three {color:#fff; width:26.3%; margin-left:5%; padding:4em 2em 2em 2em; background:#3399ff; clear:none; float:left;}
-    .grp-three > .col-three a {color:#fff;}
+    .grp-three > .col-one {width:25%;}
+    .grp-three > .col-two {width:50%;}
+    .grp-three > .col-three {width:25%; clear:none; float:left;}
+    .grp-three > .col-three a {}
     .grp-four {}
-    .grp-four > .col {width:25%; padding:2em;}
+    .grp-four > .col {width:25%;}
 
 }

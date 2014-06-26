@@ -7,7 +7,7 @@
                 <li><a href="#">Designs</a></li>
                 <li><a href="#">Blocks</a></li>
                 <li><a href="#">Partials</a></li>
-                <li><a href="#">Github</a></li>
+                <li><a href="http://github.com/travm/zen-framework/">Github</a></li>
             </ul>
         </div>
     </div>

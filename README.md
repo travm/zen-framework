@@ -4,7 +4,7 @@ An opinionated web framework designed to create a consistent structure with a fl
 
 # Getting Started
 
-If you would like to create a design for the Zen Framework, you can do so by targetting each element manually or you could download our starter CSS, Essence, which is pre-built with all of the elements that you will need to target.
+If you would like to create a design for the Zen Framework, you can do so by targetting each element manually or you could download our starter kit CSS, which is pre-built with all of the elements that you will need to target.
 
 ## Partials
 The base structures that are consistent across the framework.
@@ -23,3 +23,4 @@ The dynamic building blocks of each web page.
 - Hero
 - Video
 - Image
+- Breadcrumbs
