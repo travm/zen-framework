@@ -2,9 +2,11 @@
 
 An opinionated web framework designed to create a consistent structure with a flexible and efficient styling strategy. Greatly inspired by the CSS Zen Garden.
 
+This project is still in the very early stages of development and will likely see dramatic changes.
+
 # Getting Started
 
-If you would like to create a design for the Zen Framework, you can do so by targetting each element manually or you could download our starter kit CSS, which is pre-built with all of the elements that you will need to target.
+Creating a design for the Zen Framework is as simple as creating a design for the CSS Zen Garden. We're still working on getting things production ready, so hang tight!
 
 ## Partials
 The base structures that are consistent across the framework.

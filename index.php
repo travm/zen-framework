@@ -3,9 +3,9 @@
 <?php include('partials/hsc-header.php'); ?>
 <?php include('partials/site-header.php'); ?>
 
-<div id="hero">
-    <div id="hero-color"></div>
-    <div id="hero-content" class="measure">
+<div class="hero">
+    <div class="hero-color"></div>
+    <div class="hero-content measure">
         <h1>ZEN FRAMEWORK</h1>
         <p>An opinionated web framework designed to create a consistent structure with a flexible and efficient styling strategy. Greatly inspired by the CSS Zen Garden.</p>
     </div>
@@ -58,7 +58,7 @@
         
         <div class="col col-one">
             
-            <?php include('blocks/block-news.php'); ?>
+            <?php include('components/news.php'); ?>
 
         </div>    
 
@@ -77,7 +77,7 @@
 
         <div class="col col-three">
             
-            <?php include('blocks/block-events.php'); ?>
+            <?php include('components/events.php'); ?>
 
         </div>
 

@@ -9,10 +9,10 @@
     <div class="grp grp-two">
         
         <div class="col col-one">
-            <?php include('blocks/block-menu.php'); ?>
+            <?php include('components/menu.php'); ?>
         </div>
         <div class="col col-two">
-            <?php include('blocks/block-breadcrumbs.php'); ?>
+            <?php include('components/breadcrumbs.php'); ?>
 
             <h1>Lorem ipsum dolor sit amet</h1>
             <img src="http://placehold.it/350x550" alt="" class="is-image-right">
