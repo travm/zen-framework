@@ -11,6 +11,12 @@
         <div class="col col-one">
             <h1>Designs</h1>
             <p>Our list of designs that users have created.</p>
+
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
+
         </div>
 
     </div>

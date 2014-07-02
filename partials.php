@@ -11,6 +11,12 @@
         <div class="col col-one">
             <h1>Partials</h1>
             <p>The partials are the standard layout building blocks that surround our core.</p>
+
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
+
         </div>
 
     </div>

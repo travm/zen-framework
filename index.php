@@ -83,6 +83,27 @@
 
     </div>
 
+    <div class="grp grp-four">
+        
+        <div class="col col-one">
+            <h1>Column One</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ex unde atque cupiditate dolorem quam quis doloremque porro magni assumenda animi vero, tempore magnam placeat iusto nihil ipsa at. Maxime!</p>
+        </div>
+        <div class="col col-two">
+            <h1>Column Two</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quo temporibus adipisci veritatis omnis perferendis at nemo vero assumenda deserunt maiores ipsa, error eos cumque? Quo ex quos in molestiae.</p>
+        </div>
+        <div class="col col-three">
+            <h1>Column Three</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere aliquid soluta modi repellat ea accusamus, doloribus, veniam temporibus iure natus quia vel sed enim nihil, quaerat labore iste architecto autem.</p>
+        </div>
+        <div class="col col-four">
+            <h1>Column Four</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit rerum quisquam dignissimos, deleniti! Ut laborum soluta ad itaque, fugiat ducimus tenetur nemo cupiditate iste quibusdam neque veniam molestiae, quos architecto.</p>
+        </div>
+
+    </div>
+
 </div>
 
 <?php include('partials/site-footer.php'); ?>

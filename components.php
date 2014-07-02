@@ -11,6 +11,11 @@
         <div class="col col-one">
             <h1>Components</h1>
             <p>Components are the building blocks for each site. These are elements that define specific structure for our content.</p>
+
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
+            <?php include 'components/block.php' ?>
         </div>
 
     </div>
