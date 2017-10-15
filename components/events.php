@@ -1,4 +1,4 @@
-<div clcass="events">
+<div class="events">
     <div class="events-header">
         <h1>Events</h1>
     </div>
